@@ -213,6 +213,7 @@
   server.listen(PORT, LOCAL_ADDRESS, function() {
     var address;
     address = server.address();
+    console.log(config);
     return console.log("server listening at", address);
   });
 
